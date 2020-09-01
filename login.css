@@ -1,0 +1,76 @@
+﻿body{
+	background-image:url('loginpage.jpg');
+	background-size:100% 100%;
+	margin:0;
+}
+h1{
+	color:yellow;
+	padding-left:40%;
+	font-size:35px;
+	font-family:Arial;
+	width:100%;
+}
+h2{
+	padding-left:50%;
+	color:maroon;
+	font-family:Arial;
+	font-size:35px;
+}
+.sidenav{
+	height:100%;
+	width:150px;
+	position:fixed;
+	background-color:transparent;
+	strength:bold;
+	padding-top:35px;
+	overflow:hidden;
+	margin:0;
+}
+.sidenav a{
+	padding:10px 10px 10px 10px;
+	color:white;
+	font-size:25px;
+	text-decoration:none;
+	display:block;
+}
+.sidenav a:hover{
+	color:teal;
+}
+form{
+	margin:40px 500px;
+	width:600px;
+	border-radius:10px;
+	color:red;
+	font-size:15px;
+	font-family:"Arial Black";
+}
+div{
+	margin-top:12px;
+}
+
+label{
+	display:inline-block;
+	width:120px;
+	text-align:right;
+	color:white;
+	font-size:15px;
+}
+
+input,textarea{
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	background:white;
+	width:200px;
+}
+.footer{
+	position:fixed;
+	width:600px;
+	left:0;
+	bottom:0;
+	background-color:transparent;
+	text-align:center;
+	color:white;
+}
+button{
+	color:aqua;
+}

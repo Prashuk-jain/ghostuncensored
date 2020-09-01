@@ -1,0 +1,59 @@
+﻿body{
+	background-image:url('support.jpg');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	margin:0;
+	
+}
+.sidenav{
+	height:100%;
+	width:150px;
+	position:fixed;
+	background-color:silver;
+	padding-top:35px;
+	overflow:hidden;
+	margin:0;
+}
+.sidenav a{
+	padding:10px 8px 8px 10px;
+	color:white;
+	font-size:20px;
+	text-decoration:none;
+	display:block;
+}
+.sidenav a:hover{
+	color:teal;
+}
+h1{
+	font-size:30px;
+	padding-top:10px;
+	padding-left:30%;
+	color:#FF6600;
+	font-family:"Arial Black";
+	text-align:left;
+}
+h2{
+	font-family:Century;
+	padding:25px;
+	padding-left:30%;
+	font-size:30px;
+	color:yellow;
+	
+	
+}
+h2 a{
+	font-family:Century;
+	padding:25px;
+	padding-left:25%;
+	font-size:30px;
+	color:lime;
+	
+}.footer{
+	position:fixed;
+	left:0;
+	padding-left:8px;
+	bottom:0;
+	width:100%;
+	color:white;
+	text-align:left;
+}

@@ -1,0 +1,163 @@
+﻿body{
+	background-image:url('clan (1).jpg');
+	background-repeat:no-repeat;
+	background-position:left-bottom;
+	background-size:100% 100%;
+	margin:0;
+
+}
+
+/*ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:red;
+	text-align:center;
+	}
+li {
+	float:left;
+	font-size:20px;
+}
+
+li a{
+	 display:block;
+	 color:green;
+	 font-family:"Book Antiqua";
+	 font-size:22px;
+	 text-align:center;
+	 padding:2px 25px;
+	 text-decoration:none;
+	
+}
+/* hover is basically a shadow effect on links*/
+/*
+li a:hover{
+	background-color:white;
+	color:blue;
+}*/
+/* Hamburger Menu CSS */
+.sidenav{
+    background-image:url('clan (2).jpg');
+    background-size:90% 10%;
+	background-repeat:no-repeat;
+	display:none;
+	height:100%;
+	width:190px;
+	position:fixed;
+	z-index:1;
+	top:0;
+	left:0;
+	background-color:white;
+	overflow-x:hidden;
+	padding-top:40px;
+	
+}
+span{
+	
+	color:white;
+	
+}
+.sidenav a{
+	
+	padding:25px 28px 8px 22px;
+	text-decoration:none;
+	font-size:25px;
+	color:gray;
+	display:block;
+}
+.sidenav a:hover{
+	
+	color:black;
+	
+}
+.sidenav.closebtn{
+	position:absolute;
+	color:blue;
+	top:0;
+	padding-top:10px;
+	right:95px;
+	font-size:40px;
+	margin-left:100px;
+}
+img{
+	
+	width:70%;
+	height:20%;
+	padding-top:80%;
+	padding-left:8%;
+}
+
+/* Burger Menu css done */
+td{ 
+    font-family:Lato;
+	font-size:18px;
+	padding:8px;
+	color:white;
+	text-align:left;
+	margin-top:30px;
+	text-shadow:1px 1px grey;
+}
+
+h1{
+	width:100%;
+	color:#FF5050;
+	font-family:Lato;
+	font-size:39px;
+	text-align:center;
+	text-shadow:3px 2px grey;
+}
+
+h2{
+	width:100%;
+	color:white;
+	font-family:"Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	text-align:center;
+ 	text-shadow:1px 1px grey;
+
+}
+table{
+	font-family:Lato;
+	border-collapse:collapse;
+	overflow:auto;
+	width:70%;
+	box-shadow: 0 0 20px rgba (0,0,0,0.5);
+	margin-top:60px;
+}
+
+th{
+	font-size:20px;
+	text-align:left;
+	font-weight:bold;
+	padding-top:40px;
+	padding:2px;
+	background-color:#CCFFFF;
+}
+
+tr:nth-child(odd){
+	background-color:silver;
+}
+
+tr:nth-child(even){
+	background-color:purple;
+}
+
+tbody tr:hover{
+	background-color:rgba(255,255,255,0.3);
+}
+
+tbody th:hover{
+	background-color:lime;
+}
+
+
+.footer{
+	position:fixed;
+	left:0;
+	bottom:0;
+	width:100%;
+	color:white;
+}
+footer{
+	color:red;
+}
